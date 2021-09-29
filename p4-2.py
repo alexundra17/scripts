@@ -17,7 +17,7 @@ def bin2dac (v):
     return sg
 
 def LN (num):
-    for n in range (0,8)
+    for n in range (0,8):
         GPIO.output(D[n], 0)
     for j in range (7, -1, -1)
         GPIO.output (D[j], num[j])
